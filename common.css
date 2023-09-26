@@ -1,0 +1,48 @@
+/* body {
+    background-image: url('dog.png');
+    background-color: rgba(8, 109, 75, 0.425);
+    background-size: cover; /* Adjusts the image size to cover the entire viewport *
+    background-repeat: no-repeat; /* Prevents the image from repeating *
+    background-attachment: fixed; /* Makes the background fixed, so it doesn't scroll with content *
+} */
+
+/* Reset some default styles for the list */
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header bar */
+header {
+    background-color: #333; /* Background color for the header bar */
+    color: #fff; /* Text color for the header bar */
+    padding: 10px 0; /* Padding for top and bottom */
+    margin: 0; /* Remove any default margin */
+    position: fixed; /* Fix the header at the top of the viewport */
+    width: 100%; /* Make the header span the full width of the viewport */
+    top: 0; /* Place the header at the top of the viewport */
+    left: 0;
+}
+
+/* Style the navigation menu */
+nav ul {
+    text-align: center; /* Center-align the list items */
+}
+
+nav ul li {
+    display: inline; /* Display list items horizontally */
+    margin-right: 20px; /* Add some space between list items */
+}
+
+nav ul li a {
+    text-decoration: none; /* Remove underline from links */
+    color: #fff; /* Text color for links */
+    font-weight: bold; /* Bold text for links */
+    font-size: 16px; /* Font size for links */
+}
+
+/* Change link color on hover */
+nav ul li a:hover {
+    color: #e9fa00; /* Change the color when hovering over a link */
+}
