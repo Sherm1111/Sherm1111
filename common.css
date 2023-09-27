@@ -5,6 +5,9 @@
     background-repeat: no-repeat; /* Prevents the image from repeating *
     background-attachment: fixed; /* Makes the background fixed, so it doesn't scroll with content *
 } */
+body{
+    background-color: red;
+}
 
 /* Reset some default styles for the list */
 ul {
@@ -15,11 +18,10 @@ ul {
 
 /* Style the header bar */
 header {
-    background-color: #333; /* Background color for the header bar */
+    background-color: #333;/* Background color for the header bar */
     color: #fff; /* Text color for the header bar */
     padding: 10px 0; /* Padding for top and bottom */
     margin: 0; /* Remove any default margin */
-    position: fixed; /* Fix the header at the top of the viewport */
     width: 100%; /* Make the header span the full width of the viewport */
     top: 0; /* Place the header at the top of the viewport */
     left: 0;
@@ -30,19 +32,35 @@ nav ul {
     text-align: center; /* Center-align the list items */
 }
 
-nav ul li {
+nav ul button {
     display: inline; /* Display list items horizontally */
     margin-right: 20px; /* Add some space between list items */
 }
 
-nav ul li a {
+nav ul button a {
     text-decoration: none; /* Remove underline from links */
-    color: #fff; /* Text color for links */
+    color:white;
     font-weight: bold; /* Bold text for links */
     font-size: 16px; /* Font size for links */
 }
 
-/* Change link color on hover */
-nav ul li a:hover {
-    color: #e9fa00; /* Change the color when hovering over a link */
+nav ul button a:hover{
+    color:black;
+}
+
+/* Style the button */
+.seamless-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    min-height: 30px;
+    min-width: 120px;
+}
+
+/* Change button color on hover */
+.seamless-button:hover {
+    background-color: white; /* Change the background color on hover */
+    color: black; /* Change text color on hover */
+    transition: .7s;
 }
