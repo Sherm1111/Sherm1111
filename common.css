@@ -6,7 +6,7 @@
     background-attachment: fixed; /* Makes the background fixed, so it doesn't scroll with content *
 } */
 body{
-    background-color: red;
+    background-color: beige;
 }
 
 /* Reset some default styles for the list */
@@ -34,33 +34,32 @@ nav ul {
 
 nav ul button {
     display: inline; /* Display list items horizontally */
-    margin-right: 20px; /* Add some space between list items */
-}
-
-nav ul button a {
-    text-decoration: none; /* Remove underline from links */
-    color:white;
-    font-weight: bold; /* Bold text for links */
-    font-size: 16px; /* Font size for links */
-}
-
-nav ul button a:hover{
-    color:black;
-}
-
-/* Style the button */
-.seamless-button {
+     /* Add some space between list items */
     background-color: #333;
-    color: white;
     border: none;
     padding: 5px 15px;
     min-height: 30px;
     min-width: 120px;
 }
 
-/* Change button color on hover */
-.seamless-button:hover {
-    background-color: white; /* Change the background color on hover */
-    color: black; /* Change text color on hover */
-    transition: .7s;
+nav ul button a {
+    text-decoration: none; /* Remove underline from links */
+    /* color:white; */
+    font-weight: bold; /* Bold text for links */
+    font-size: 16px; /* Font size for links */
+    color: white;
+    padding: 5px 20px;
+    min-height: 30px;
+    min-width: 120px;
 }
+
+
+nav ul button a:hover{
+    background-color: white; /* Change the background color on hover */
+    color: black;
+    transition: .7s;
+
+}
+
+
+
